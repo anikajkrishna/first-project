@@ -1,12 +1,13 @@
 
 function setup() {
-  createCanvas(400,400);
+  createCanvas(1200,600);
+  var box = createSprite(100,200,100,100);
 }
 
 function draw() 
 {
-  background(30);
-
+  background("black");
+drawSprites();
 }
 
 
